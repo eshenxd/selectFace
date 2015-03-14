@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/3/9 11:29:08。
+     1>项目“E:\WorkSpace\Visual Studio 2013\selectFace\selectFace\selectFace.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\software\Visual Studio 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt detect_face.cpp faceAlign.cpp facePoint.cpp getFiles.cpp main.cpp
+         detect_face.cpp
+     1>detect_face.cpp(98): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         faceAlign.cpp
+     1>faceAlign.cpp(73): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>faceAlign.cpp(74): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>faceAlign.cpp(87): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         facePoint.cpp
+         getFiles.cpp
+         main.cpp
+       Link:
+         D:\software\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.lib" /MACHINE:X86 /SAFESEH Release\detect_face.obj
+         Release\faceAlign.obj
+         Release\facePoint.obj
+         Release\getFiles.obj
+         Release\main.obj
+            正在创建库 E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.lib 和对象 E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.exp
+         正在生成代码
+         已完成代码的生成
+         selectFace.vcxproj -> E:\WorkSpace\Visual Studio 2013\selectFace\Release\selectFace.exe
+     1>已完成生成项目“E:\WorkSpace\Visual Studio 2013\selectFace\selectFace\selectFace.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.70
